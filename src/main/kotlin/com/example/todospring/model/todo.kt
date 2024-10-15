@@ -9,6 +9,6 @@ import jakarta.persistence.Id
 data class Todo(
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     val id: Long = 0,
-    var title: String = "",
-    var completed: Boolean = false
+    val title: String = "",
+    val completed: Boolean = false
 )

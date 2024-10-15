@@ -4,10 +4,7 @@ import com.example.todospring.model.Todo
 import com.example.todospring.repository.TodoRepository
 import org.springframework.http.HttpStatus
 import org.springframework.stereotype.Service
-import org.springframework.web.bind.annotation.PathVariable
-import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.server.ResponseStatusException
-import kotlin.jvm.optionals.getOrNull
 
 @Service
 class TodoService(private val repository: TodoRepository) {
